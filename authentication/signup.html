@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="/main/css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="/main/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/main/css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="/main/images/favicon-32x32.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="/main/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="/main/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="/main/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="/main/css/style.css">
+    <script src="https://kit.fontawesome.com/0e36dc85bc.js" crossorigin="anonymous"></script>
+</head>
+<body class="boby">
+<div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="logo"><a href="index.html"> <img src="/main/images/img-5-removebg-preview.png" alt="" class="nav-image"></a></div>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="/main/index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/main/about.html">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/main/gallery.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/main/services.html">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/main/contact.html">Contact Us</a>
+                     </li>
+                     <li class="nav-item"></li>
+                        <a class="nav-link" href="shop.html">Shop</a>
+                     </li>                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="/main/authentication/signup.html"><i class="fa-duotone fa-solid fa-user"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+
+    <main>
+        <section class="auth-container">
+            <h2>Create an Account</h2>
+            <form id="signup-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <!-- Radio Buttons for User/Vendor -->
+        <label>Select Account Type:</label>
+        <label><input type="radio" name="accountType" value="user" required> User</label>
+        <label><input type="radio" name="accountType" value="vendor" required> Vendor</label>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MyStore. All Rights Reserved.</p>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script src="black&white theme.js"></script>
+</body>
+</html>

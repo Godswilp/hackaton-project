@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "price": 5200,
+        "image": "images/coffe-6.webp"
+    },
+    {
+        "id": 2,
+        "name": "cafe au lait",
+        "price": 2000,
+        "image": "images/coffe-5.webp"
+    },
+    {
+        "id": 3,
+        "name": "cappuccino",
+        "price": 2500,
+        "image": "images/coffe-4.webp"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Macchiato",
+        "price": 4200,
+        "image": "images/coffe-3.webp"
+    },
+    {
+        "id": 5,
+        "name": "cafe Mocha",
+        "price": 4300,
+        "image": "images/coffe-2.webp"
+    },
+    {
+        "id": 6,
+        "name": "Ristretto",
+        "price": 2700,
+        "image": "images/coffe-1.webp"
+    },
+    {
+        "id": 7,
+        "name": "Long Black",
+        "price": 2200,
+        "image": "images/coffe-7.webp"
+    },
+    {
+        "id": 8,
+        "name": "Affogato",
+        "price": 1900,
+        "image": "images/coffe-8.webp"
+    },
+    {
+        "id": 9,
+        "name": "Latte",
+        "price": 1600,
+        "image": "images/coffe-9.webp"
+    },
+    {
+        "id": 10,
+        "name": "Irish Coffee",
+        "price": 3200,
+        "image": "images/coffe-10.webp"
+    }
+]

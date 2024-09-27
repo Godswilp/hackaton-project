@@ -1,0 +1,164 @@
+.body {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    background-color: #eb9d37; 
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(241, 219, 219, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container label {
+    margin-bottom: 5px;
+    font-weight:bold;
+}
+
+/* .logo .nav-links li a{
+    font-weight:bolder;
+} */
+
+.auth-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bb9e9e;
+    border-radius: 4px;
+}
+
+.auth-container button {
+    padding: 10px;
+    background-color: #eb9d37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #eb8b0e;
+}
+
+.auth-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.auth-container a {
+    color: #fd7e08;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.auth-container a:hover {
+    text-decoration:underline;
+}
+.auth-container a:visited {
+    color:rgb(230, 0, 0);
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+ 
+body.black-theme {
+    background-color: black;
+    color: rgb(151, 64, 64);
+    
+}
+
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.theme-toggle:hover {
+    background-color: #333;
+}
+
+.switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #585353;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(12, 10, 10);
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ffffff; 
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+
+  .slider.round {
+    border-radius: 40px;
+    
+}
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
